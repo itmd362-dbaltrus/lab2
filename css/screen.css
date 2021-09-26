@@ -1,0 +1,14 @@
+@media screen and (min-width: 360px){
+  h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  fieldset{
+    border: black solid;
+	text-align: center;
+	height: 300px;
+  }
+
+}
+
