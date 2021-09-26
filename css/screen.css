@@ -32,3 +32,16 @@
   }
 }
 
+@media screen and (min-width: 620px){
+  fieldset{
+	height: 400px;
+  }
+  label{
+    width: 10%;
+	position: relative;
+    left: 20%;	
+  }
+  input{
+    width: 40%;
+  }
+}
