@@ -9,11 +9,24 @@
 </head>
 <body>
   <h1>Lab 2: Basic Forms and Input Review</h1>
-  <legend>Form Inputs</legend>
-  <form  method="POST" autocomplete="on" autocapitalize="none" action= "#null"</form>
-  <label>Email Address: <input type="email" name="email_field" placeholder="johndoe@gmail.com"></label>
-  <label>Phone Number: <input type="tel" name="phone_field" placeholder="555-555-5555"></label>
-  <label>Date of Birth: <input type="date" name="dob_field" placeholder="mm/dd/yyyy">
-  <input type="submit" value="Submit">
+  <fieldset>
+    <legend>Form Inputs</legend>
+    <form  method="POST" autocomplete="on" autocapitalize="none" action= "#null"</form>
+	<div>
+      <label>Email Address: </label>
+	  <input type="email" name="email_field" placeholder="johndoe@gmail.com">
+	</div>
+	<div>
+      <label>Phone Number: </label>
+	  <input type="tel" name="phone_field" placeholder="555-555-5555">
+	</div>
+	<div>
+      <label>Date of Birth: </label>
+	  <input type="date" name="dob_field" placeholder="mm/dd/yyyy">
+	</div>
+	<div>
+      <input type="submit" value="Submit">
+	</div>
+  </fieldset>
 </body>
 </html>
